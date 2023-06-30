@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Overpass', 'sans-serif';
+    
+}
+a{
+    text-decoration: none;
+}
+$gradient-1:hsl(13, 100%, 72%); //very-light-red
+$gradient-2:hsl(353, 100%, 62%); //light-red
+
+$txt-white:hsl(0, 0%, 100%);
+$footer-txt-grayblue:hsl(240, 2%, 79%);
+$footer-dark-blue: hsl(207, 13%, 34%);
+$footer-dark-black: hsl(240, 10%, 16%);

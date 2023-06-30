@@ -1,0 +1,85 @@
+
+@import '../App.scss';
+
+
+.hero{
+    width: 100%;
+    height:600px;
+    // background-image: linear-gradient($gradient-1, $gradient-2);
+    background-image: url('../assets/images/bg-pattern-intro-desktop.svg'), linear-gradient(135deg, $gradient-1, $gradient-2);
+    background-size: 300%;
+    background-position: 40% 50%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+    padding: 3rem 2.5rem 0 2.5rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.brand{
+    height: 1.9rem;
+}
+
+.hero-text-wrapper{
+    // border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10rem;
+    
+
+    h1{
+        font-size: 2.1rem;
+        color:  $txt-white;
+        padding-bottom: 1rem;
+        font-weight: 600;
+        
+        span{
+            display: block;
+
+        }
+    }
+
+    p{
+        color: $txt-white;
+        text-align: center;
+        margin-top: .4rem;
+        font-weight: 300;
+        font-size: 1.18rem;
+    }
+   
+    .btn-wrapper{
+        // border:2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 1.5rem;
+        // gap: 2rem;
+        width: 100%;
+        @media (min-width:700px) {
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+
+    
+    .btn{
+        border: 1px solid white;
+        font-family: 'Ubuntu', 'sans-serif';
+        font-size: 1rem;
+        font-weight: 600;
+        height: 3rem;
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5rem;
+    }
+}
